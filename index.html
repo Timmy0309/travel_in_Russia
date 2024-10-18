@@ -11,7 +11,7 @@
 <body class="page">
     <header class="header">
         <img class="header__logo" src="./images/__logo.svg" alt="карта России">
-        <a class="header__lang-link header__lang-link_ru" href="#">Ru</a><a class="header__lang-link" href="#">En</a>
+        <a class="header__lang-link header__lang-link_ru header__lang-link_active" href="#0">Ru</a><a class="header__lang-link header__lang-link_active" href="#0">En</a>
     </header>
     <main>
         <section class="lead">
@@ -149,12 +149,24 @@
             </div>
         </section>
         <section class="cover">
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <h4 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</h4>
-            <img class="cover__image" src="./images/__background.svg" alt="картинка поезда">
-            <div class="cover__overlay"></div>
+            <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+                <h2 class="cover__title">До Байкала «на собаках»</h2>
+                <h4 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</h4>
+                <img class="cover__image" src="./images/__background.svg" alt="картинка поезда">
+                <div class="cover__overlay"></div>
+            </a>
         </section>
 
+        <footer class="footer">
+            <nav class="navigation">
+                <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+                <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+                <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+                <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
+                <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+            </nav>
+            <h5 class="footer__copyright">© 2024. Тимофей Лясковский</h5>
+        </footer>
 
     </main>
 </body>

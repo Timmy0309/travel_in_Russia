@@ -6,3 +6,7 @@
     text-decoration-skip-ink: none;
     color: #fff;
 }
+
+.place__link:hover {
+    opacity: 80%;
+}

@@ -1,5 +1,4 @@
-.header__lang-link
-{
+.header__lang-link {
     width: 30px;
     color: #FFF;
     position: absolute;
@@ -11,14 +10,13 @@
     font-weight: 400;
     text-decoration: none;
 }
+
 @media screen and (max-width: 320px) {
     .header__lang-link {
         width: 22px;
         font-size: 18px;
     }
 }
-.header__lang-link_ru
-{
+.header__lang-link_ru {
     right: 47px;
-    text-decoration: underline;
 }
