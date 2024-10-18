@@ -1,9 +1,0 @@
-.place__website {
-    grid-column: 2;
-    grid-row: 1;
-    width: 456px;
-    height: 46px;
-    justify-self: start;
-    align-self: end;
-    margin-bottom: 48px;
-}
