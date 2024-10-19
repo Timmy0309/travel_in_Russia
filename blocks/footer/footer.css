@@ -5,3 +5,24 @@
     margin: 0 auto 24px;
     color: #fff;
 }
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        width: 186px;
+        height: 310px;
+        margin-left: 16px;
+        display: block;
+    }
+}

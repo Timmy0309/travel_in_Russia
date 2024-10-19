@@ -10,3 +10,17 @@
 .footer__link:hover {
     opacity: 80%;
 }
+
+@media screen and (max-width: 320px) {
+    .footer__link {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 100%;
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+
+    .footer__link:last-child {
+        margin-bottom: 48px;
+    }
+}

@@ -5,3 +5,17 @@
     font-size: 1.2rem;
     line-height: 163%;
 }
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        font-size: 1rem;
+    }    
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        width: 288px;
+        margin: auto;
+        font-size: 1rem;
+    }    
+}
