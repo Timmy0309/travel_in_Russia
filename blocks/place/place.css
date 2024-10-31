@@ -6,20 +6,20 @@
     color: white;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
     .place {
         grid-template-columns: 440px 456px;
         grid-column-gap: 32px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .place {
         grid-template-columns: 340px 352px;
         margin-bottom: 73px;
         grid-column-gap: 28px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .place {
         margin-bottom: 50px;
         display: block;
